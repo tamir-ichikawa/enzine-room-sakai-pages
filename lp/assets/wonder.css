@@ -33,7 +33,7 @@
 .sk-lp.wonder .wd-invite :where(h2,a) + p { margin-top: .45rem; }
 .sk-lp.wonder .wd-invite-grid > div:last-child { text-align: center; }
 .sk-lp.wonder .wd-invite-grid > div:last-child p { font-size: .88rem; }
-.sk-lp.wonder .wd-line { background: #06c755; color: #000; border-radius: 2.5rem; padding: .8rem 2.1rem; min-height: 3rem; }
+.sk-lp.wonder .wd-line { border-radius: 2.5rem; padding: .8rem 2.1rem; min-height: 3rem; }
 .sk-lp.wonder .access { width: 100%; background: #f6f6f3; padding-inline: max(5.25%,calc((100% - 73rem)/2)); }
 .sk-lp.wonder .access h2::after,.sk-lp.wonder .wd-story h2::after,.sk-lp.wonder .wd-work h2::after { content: ""; display: block; height: .27rem; width: 3.3rem; margin-top: .65rem; border-radius: 1rem; background: #df8e2f; }
 .sk-lp.wonder .access-table .loc { background: white; }
@@ -78,9 +78,15 @@
   .sk-lp.wonder .wd-mobile { display: inline; }
   .sk-lp.wonder .wd-cover-art { width: 51%; height: 11.2rem; top: 2.7rem; }
   .sk-lp.wonder .wd-seals { gap: .4rem; }
-  .sk-lp.wonder .wd-seals a { width: min(5.35rem,31%); }
+  .sk-lp.wonder .wd-seals a { width: 5.35rem; }
   .sk-lp.wonder .wd-place { font-size: .9rem; }
   .sk-lp.wonder .wd-intro { max-width: 100%; }
   .sk-lp.wonder .loc > div { grid-template-columns: minmax(5.2rem,30%) 1fr; }
   .sk-lp.wonder .loc dt,.sk-lp.wonder .loc dd { padding: .6rem; }
+}
+.sk-lp.wonder .wd-seals a { flex: none; }
+.sk-lp.wonder .wd-seals a :is(span,b) { white-space: nowrap; }
+.sk-lp.wonder .access-table { container-type: inline-size; }
+@container (max-width: 17em) {
+  .sk-lp.wonder .loc > div { grid-template-columns: minmax(0,1fr); }
 }

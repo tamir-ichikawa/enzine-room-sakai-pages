@@ -142,3 +142,7 @@
   .sk-lp.college .college-fact-list { grid-template-columns: minmax(0,1fr); }
   .sk-lp.college .college-fact-list > div { display: grid; grid-template-columns: 1fr; }
 }
+.sk-lp.college .college-facts { container-type: inline-size; }
+@container (max-width: 18em) {
+  .sk-lp.college .college-fact-list { grid-template-columns: minmax(0,1fr); }
+}

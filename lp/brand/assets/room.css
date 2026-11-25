@@ -7,7 +7,6 @@
 .room-edition .room-mast nav .nav-visit { background:#fff; color:#17203b; border:1px solid #fff; }
 .room-edition .room-foot .wrap { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:1rem; padding-block:1.8rem; }
 .room-edition .room-foot a { display:inline-flex; align-items:center; min-height:48px; }
-.room-edition .contact .line { color:#000; background:#06c755; }
 .room-edition .room-route { margin-block:1.2rem .9rem; }
 .room-edition .room-route h3 { margin:0 0 .5rem; }
 .room-edition .room-route ol { padding-inline-start:1.65rem; }

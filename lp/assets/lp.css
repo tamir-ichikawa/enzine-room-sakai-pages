@@ -133,11 +133,17 @@ body.sk-page { margin: 0; }
 .sk-lp .contact-options > div + div { border-left: 1px solid #ffffff65; padding-left: clamp(1.2rem,4vw,3.75rem); }
 .sk-lp .contact-options h3 { display: flex; align-items: center; gap: .55em; margin-bottom: .65rem; }
 .sk-lp .phone-number { display: inline-flex; align-items: center; min-height: 3rem; font: 700 clamp(1.75rem,3.2vw,3rem)/1.25 Arial,sans-serif; letter-spacing: -.035em; }
-.sk-lp .contact-options .line { color: #000; background: #06c755; }
+.sk-lp .button:is(.line,.wd-line) {
+  color: #fff; background: #06c755;
+  text-shadow: -.7px -.7px 0 #006330, .7px -.7px 0 #006330, -.7px .7px 0 #006330, .7px .7px 0 #006330;
+}
 .sk-lp .contact-options a + p { margin-top: .45rem; }
 .sk-lp .contact-small { font-size: .9rem; }
 .sk-lp .footer { display: flex; align-items: center; justify-content: space-between; gap: .7rem; padding-block: .85rem; flex-wrap: wrap; }
 @media(max-width: 58rem) {
+  .sk-lp .mast-inner, .sk-lp .mast nav { flex-wrap: wrap; }
+  .sk-lp .mast nav { max-width: 100%; }
+  .sk-lp .mast .nav-visit { white-space: nowrap; }
   .sk-lp .wrap { width: 90%; }
   .sk-lp .wide { display: none; }
   .sk-lp .welcome-grid { grid-template-columns: .93fr 1.07fr; column-gap: 1.5rem; }
@@ -185,6 +191,7 @@ body.sk-page { margin: 0; }
   .sk-lp .footer { font-size: .9rem; }
 }
 @media(forced-colors: active) {
+  .sk-lp .button:is(.line,.wd-line) { text-shadow: none; }
   .sk-lp .button,.sk-lp .nav-visit { border: 1px solid ButtonText; }
 }
 @supports (font-size: 1cqi) {
