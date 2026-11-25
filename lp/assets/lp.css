@@ -135,7 +135,7 @@ body.sk-page { margin: 0; }
 .sk-lp .phone-number { display: inline-flex; align-items: center; min-height: 3rem; font: 700 clamp(1.75rem,3.2vw,3rem)/1.25 Arial,sans-serif; letter-spacing: -.035em; }
 .sk-lp .button:is(.line,.wd-line) {
   color: #fff; background: #06c755;
-  text-shadow: -.7px -.7px 0 #006330, .7px -.7px 0 #006330, -.7px .7px 0 #006330, .7px .7px 0 #006330;
+  text-shadow: none;
 }
 .sk-lp .contact-options a + p { margin-top: .45rem; }
 .sk-lp .contact-small { font-size: .9rem; }
@@ -191,7 +191,6 @@ body.sk-page { margin: 0; }
   .sk-lp .footer { font-size: .9rem; }
 }
 @media(forced-colors: active) {
-  .sk-lp .button:is(.line,.wd-line) { text-shadow: none; }
   .sk-lp .button,.sk-lp .nav-visit { border: 1px solid ButtonText; }
 }
 @supports (font-size: 1cqi) {
