@@ -1,0 +1,60 @@
+.sk-lp.stage {
+  --ink: #101725; --paper: #fff; --shade: #edf4f6; --accent: #1c438b; --rule: #b7c3d4;
+  --deep: #101522; --light: #fff; --cyan: #66e9f3; --pink: #ff4fa1; --lime: #ddf751;
+}
+.sk-lp.stage .mast { background: #101522; color: #fff; border: 0; }
+.sk-lp.stage .brand img { background: white; border-radius: 50%; }
+.sk-lp.stage .brand { gap: .65rem; }
+.sk-lp.stage .nav-visit,.sk-lp.stage .stage-intro .action { background: var(--lime); color: #0a1429; border-radius: .12rem; }
+.sk-lp.stage .stage-intro { background: #0d1322; color: #fff; }
+.sk-lp.stage .stage-locator { background: #f1f4fb; color: #172246; }
+.sk-lp.stage .stage-locator .wrap { display: flex; align-items: center; flex-wrap: wrap; gap: .12rem 1.2rem; min-height: 2.8rem; padding-block: .3rem; }
+.sk-lp.stage .stage-locator p { display: flex; align-items: center; gap: .5rem; font-weight: 750; }
+.sk-lp.stage .stage-locator .ico { color: #314f94; }
+.sk-lp.stage .stage-locator p:last-child { margin-left: auto; }
+.sk-lp.stage .stage-poster { position: relative; width: min(100%, 91rem); margin-inline: auto; container-type: inline-size; isolation: isolate; }
+.sk-lp.stage .stage-poster img { display: block; }
+.sk-lp.stage .stage-poster h1 { margin: 0; position: absolute; width: 100%; text-align: center; left: 50%; top: 48.8%; transform: translate(-50%,-50%) rotate(-17deg) skewX(-7deg); font: 1000 clamp(1.4rem,6.8vw,6.8rem)/1.12 "Yu Gothic","Hiragino Kaku Gothic ProN",Meiryo,sans-serif; font-size: 6.85cqi; letter-spacing: -.105em; color: #fff; -webkit-text-stroke: .018em currentColor; white-space: nowrap; }
+.sk-lp.stage .stage-poster h1 span { display: inline-block; }
+.sk-lp.stage .stage-poster h1 span:first-of-type b { color: var(--cyan); }
+.sk-lp.stage .stage-poster h1 span:last-of-type b { color: var(--lime); }
+.sk-lp.stage .stage-poster h1 small { display: inline-block; font: italic 900 .49em/.95 Arial,sans-serif; vertical-align: .27em; color: #ff70ac; letter-spacing: -.08em; margin-inline: .04em; }
+.sk-lp.stage .stage-deck { display: flex; align-items: center; justify-content: space-between; gap: 1.3rem 3rem; padding-block: clamp(1.45rem,3vw,2.75rem); }
+.sk-lp.stage .stage-deck h2 { font-size: clamp(1.45rem,2.5vw,2.55rem); }
+.sk-lp.stage .stage-deck p { max-width: 43em; margin-top: .45rem; }
+.sk-lp.stage .stage-deck .action { flex: none; }
+.sk-lp.stage .stage-program { background: #10182a; color: #fff; border-top: 1px solid #596476; }
+.sk-lp.stage .stage-program h2 { font-weight: 900; }
+.sk-lp.stage .stage-tracks { display: flex; flex-wrap: wrap; gap: .5rem .65rem; margin-block: 1.2rem clamp(1.8rem,3.5vw,3.35rem); }
+.sk-lp.stage .stage-tracks a { display: inline-flex; align-items: center; gap: .5em; min-height: 3rem; text-decoration: none; color: #ecf9ff; border: 1px solid #7583a3; padding: .45rem 1.05rem; }
+.sk-lp.stage .stage-tracks a:hover { border-color: white; text-decoration: underline; }
+.sk-lp.stage .stage-tracks .ico { color: var(--cyan); }
+.sk-lp.stage .stage-chapter { display: grid; grid-template-columns: 1.05fr 1fr; align-items: stretch; background: #1b2947; margin-top: 1.1rem; }
+.sk-lp.stage .stage-chapter img { object-fit: cover; height: 100%; min-height: 12rem; max-height: 25rem; }
+.sk-lp.stage .stage-chapter > div { display: flex; flex-direction: column; justify-content: center; padding: clamp(1.5rem,3.8vw,3.9rem); }
+.sk-lp.stage .stage-chapter h3 { font-size: clamp(1.8rem,3.1vw,3.45rem); line-height: 1.32; font-weight: 900; margin: .7rem 0 .85rem; }
+.sk-lp.stage .stage-kicker { font-weight: 800; color: var(--cyan); text-decoration: underline; text-decoration-color: var(--pink); text-decoration-thickness: 3px; text-underline-offset: .35em; }
+.sk-lp.stage .edit-chapter .stage-kicker { color: var(--lime); }
+.sk-lp.stage .edit-chapter img { grid-column: 2; grid-row: 1; }
+.sk-lp.stage .edit-chapter > div { grid-column: 1; grid-row: 1; }
+.sk-lp.stage .stage-other { padding-top: 2.75rem; }
+.sk-lp.stage .stage-other h3 { font-size: 1.5rem; }
+.sk-lp.stage .stage-other dl { margin-top: 1rem; display: grid; grid-template-columns: repeat(3,1fr); gap: 1.4rem; }
+.sk-lp.stage .stage-other dt { color: var(--lime); font-weight: 750; border-top: 1px solid #6f7890; padding-top: .65rem; }
+.sk-lp.stage .stage-other dd { margin-top: .4rem; }
+.sk-lp.stage .access h2,.sk-lp.stage .visit-paper h2,.sk-lp.stage .faq h2 { border-left: .25em solid #294e99; padding-left: .4em; }
+.sk-lp.stage .visit-paper { background: #e8f0fe; }
+.sk-lp.stage .contact { border-top: .45rem solid #ee438e; }
+.sk-lp.stage .contact .line { border-radius: .15rem; }
+@media(max-width:44rem) {
+  .sk-lp.stage .mast-inner { min-height: 4.25rem; }
+  .sk-lp.stage .brand { gap: .25rem; }
+  .sk-lp.stage .stage-locator p { font-size: .94rem; }
+  .sk-lp.stage .stage-locator .wrap { gap: .2rem .75rem; }
+  .sk-lp.stage .stage-locator p:last-child { width: 100%; margin: 0; font-size: .88rem; }
+  .sk-lp.stage .stage-deck { display: block; }
+  .sk-lp.stage .stage-deck .action { margin-top: 1rem; }
+  .sk-lp.stage .stage-chapter { display: flex; flex-direction: column; }
+  .sk-lp.stage .stage-chapter img { height: auto; min-height: 0; aspect-ratio: 1.95; }
+  .sk-lp.stage .stage-other dl { grid-template-columns: 1fr; gap: .8rem; }
+}

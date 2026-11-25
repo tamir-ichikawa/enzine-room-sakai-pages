@@ -1,0 +1,118 @@
+.sk-lp.jam {
+  --paper: #fff;
+  --ink: #252435;
+  --accent: #a52a55;
+  --deep: #123e77;
+  --shade: #e8f6fa;
+  --rule: #cccedd;
+  --jam-navy: #20325e;
+  --jam-pink: #ad275a;
+}
+.jam .mast { border-bottom: 0; }
+.jam .mast .nav-visit { background: var(--jam-pink); }
+.jam .jam-location {
+  display: flex; justify-content: center; align-items: center; flex-wrap: wrap; column-gap: 1.5rem;
+  min-height: 3rem; background: var(--jam-navy); color: #fff; padding: 0 .8rem;
+}
+.jam .jam-location .wrap, .jam .jam-location a { display: inline-flex; align-items: center; gap: .5em; width: auto; margin: 0; font-weight: 700; font-size: .96rem; }
+.jam .jam-location a { min-height: 2.75rem; text-underline-offset: .24em; }
+.jam .jam-location .ico { width: 1.15em; height: 1.15em; }
+.jam .jam-poster { position: relative; isolation: isolate; background: #e6f8bf; overflow: hidden; }
+.jam .jam-portrait { position: absolute; z-index: -1; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 8%; }
+.jam .jam-cover-type {
+  position: relative; width: min(87%,77rem); margin: auto;
+  min-height: clamp(25rem,38vw,39rem); display: flex; align-items: flex-start; justify-content: center;
+  flex-direction: column; padding-block: clamp(1.6rem,4vw,4rem);
+}
+.jam .jam-genres { display: flex; gap: .3rem; padding: .4rem .65rem .4rem .1rem; }
+.jam .jam-genres span {
+  position: relative; display: grid; place-items: center; width: clamp(3.7rem,6.5vw,5.9rem); aspect-ratio: 1;
+  border: .22rem solid #fff; border-radius: 50%; color: #fff; background: #ac2753;
+  box-shadow: .1rem .13rem 0 #543954; text-shadow: 0 1px 1px #60383c;
+  font-size: clamp(.98rem,1.62vw,1.5rem); letter-spacing: -.075em; font-weight: 900; transform: rotate(-8deg);
+}
+.jam .jam-genres span:nth-child(2) { background: #0f7665; transform: rotate(6deg) translateY(-.35rem); }
+.jam .jam-genres span:nth-child(3) { background: #235a99; transform: rotate(-5deg); }
+.jam .jam-cover-type h1 {
+  margin-block: .55rem 1.22rem; font-size: clamp(3rem,6.4vw,6.5rem); letter-spacing: -.075em;
+  line-height: 1.12; font-weight: 900; color: #182748; text-wrap: initial;
+  paint-order: stroke fill; -webkit-text-stroke: .085em #fff; text-shadow: .045em .065em 0 #182748;
+}
+.jam .jam-cover-type h1 em { color: #a42152; }
+.jam .jam-service {
+  padding: .25rem .78rem; background: #9e2a54; color: #fff; border: 2px solid #fff; outline: 1px solid #ad315d;
+  border-radius: .2rem; font-weight: 800; font-size: clamp(.9rem,1.4vw,1.18rem); line-height: 1.55;
+}
+.jam .jam-actions { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); background: #194b84; }
+.jam .jam-actions a { display: flex; align-items: center; justify-content: center; gap: .65em; min-height: 3.8rem; padding: .65rem 1rem; color: #fff; font-weight: 800; line-height: 1.4; text-decoration: none; text-align: center; }
+.jam .jam-actions a:last-child { background: var(--jam-pink); }
+.jam .jam-actions a:hover,.jam .jam-consult:hover { text-decoration: underline; }
+.jam .jam-intro { text-align: center; padding: clamp(3.2rem,6vw,6rem) 0; background: #fff; }
+.jam .jam-intro h2,.jam .jam-showcase h2,.jam .jam-subjects > h2 { font-size: clamp(1.9rem,3.8vw,3.4rem); font-weight: 900; line-height: 1.3; }
+.jam .jam-intro h2 em { color: var(--jam-pink); font-style: normal; }
+.jam .jam-intro .wrap > p { margin: 1.05rem auto 0; max-width: 48em; }
+.jam .jam-voices { display: flex; flex-wrap: wrap; justify-content: center; gap: .75rem 1.15rem; margin-top: 1.6rem; }
+.jam .jam-voices p { position: relative; padding: .55rem .92rem; border: 2px solid #555071; border-radius: 1rem 1rem 1rem .18rem; background: #fff0bc; font-weight: 700; }
+.jam .jam-voices p:nth-child(2) { background: #dcf4ef; }
+.jam .jam-voices p:nth-child(3) { background: #f8e0eb; }
+.jam .jam-showcase { text-align: center; background: #f2edfc; border-block: 2px solid #ded3ed; padding-block: clamp(2.8rem,5.5vw,5rem); }
+.jam .jam-showcase h2 span,.jam .jam-subjects h2 span { display: inline-block; color: var(--jam-pink); }
+.jam .jam-showcase h2 span { margin-left: .15em; }
+.jam .jam-artwall { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); align-items: start; gap: clamp(.7rem,2.2vw,2.2rem); margin-top: 2.1rem; }
+.jam .jam-artwall figure { padding: clamp(.25rem,.55vw,.55rem); background: #fff; box-shadow: .23rem .3rem 0 #cfc1df; border: 1px solid #d4cde0; }
+.jam .jam-artwall figure:first-child { transform: rotate(-2deg); }
+.jam .jam-artwall figure:last-child { transform: rotate(2deg); }
+.jam .jam-artwall img { aspect-ratio: 1; object-fit: cover; }
+.jam .jam-artwall figcaption { padding: .4rem .1rem .2rem; font-size: 1rem; font-weight: 700; line-height: 1.6; }
+.jam .jam-subjects > h2 { text-align: center; }
+.jam .jam-subjects h2 span { margin-left: .18em; }
+.jam .jam-subject-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: clamp(.95rem,2.4vw,2rem); margin-top: 2rem; }
+.jam .jam-subject-grid article { border-top: .4rem solid #a72757; background: #fff3f7; padding: .65rem; }
+.jam .jam-subject-grid article:nth-child(2) { border-color: #285f9b; background: #eaf4fc; }
+.jam .jam-subject-grid article:nth-child(3) { border-color: #367868; background: #eef7ef; }
+.jam .jam-subject-grid img { width: 100%; aspect-ratio: 1.65; object-fit: cover; }
+.jam .jam-subject-grid article > div { padding: 1rem .45rem; }
+.jam .jam-subject-grid h3 { color: #252d58; font-size: clamp(1.23rem,1.85vw,1.6rem); line-height: 1.35; margin-bottom: 1rem; }
+.jam .jam-subject-grid dt { font-weight: 800; line-height: 1.45; }
+.jam .jam-subject-grid dd { margin: .2rem 0 .8rem; }
+.jam .jam-consult { width: fit-content; max-width: 100%; margin: 1.8rem auto 0; display: flex; justify-content: center; align-items: center; gap: .65rem; min-height: 3rem; padding: .7rem 1.15rem; color: #fff; background: var(--jam-pink); font-weight: 750; text-decoration: none; border-radius: .2rem; }
+.jam .visit-paper { background: #dff2f8; }
+.jam .steps li { border-color: #6b98b4; }
+.jam .faq summary { color: #194b84; }
+.jam .contact { background: #243961; }
+.jam .contact-options > div { border-top: .28rem solid #72bde2; }
+.jam .contact-options > div + div { border-top-color: #e989ac; }
+@media(min-width: 105rem) {
+  .jam .jam-portrait { object-position: 50% 8%; }
+}
+@media(max-width: 46rem) {
+  .jam .jam-cover-type { width: 92%; min-height: clamp(21rem,65vw,28rem); padding: 1.35rem 0; }
+  .jam .jam-cover-type h1 { font-size: clamp(2.5rem,7.9vw,3.9rem); }
+  .jam .jam-portrait { object-position: 62% 44%; }
+  .jam .jam-subject-grid { grid-template-columns: minmax(0,1fr); }
+  .jam .jam-subject-grid article { display: grid; grid-template-columns: minmax(8rem,.8fr) minmax(0,1.35fr); gap: .6rem; }
+  .jam .jam-subject-grid article > div { padding: .5rem; }
+  .jam .jam-subject-grid img { margin: .5rem 0; aspect-ratio: 1; }
+}
+@media(max-width: 33rem) {
+  .jam .jam-location { gap: .15rem .6rem; padding: .12rem .35rem; }
+  .jam .jam-location .wrap,.jam .jam-location a { font-size: .875rem; gap: .22em; }
+  .jam .jam-cover-type { min-height: clamp(20rem,82vw,25rem); justify-content: flex-start; padding: .85rem 0 1rem; }
+  .jam .jam-portrait { object-position: 63% 0%; }
+  .jam .jam-genres { display: flex; width: 47%; flex-wrap: wrap; align-content: start; gap: .1rem; padding: .12rem 0; }
+  .jam .jam-genres span { width: clamp(3rem,11.5vw,3.8rem); font-size: .82rem; border-width: 2px; }
+  .jam .jam-cover-type h1 { margin: auto 0 .55rem; font-size: clamp(2.18rem,8.4vw,2.8rem); }
+  .jam .jam-service { font-size: .85rem; padding-inline: .45rem; }
+  .jam .jam-actions a { font-size: .94rem; gap: .35em; padding: .65rem .4rem; }
+  .jam .jam-actions .ico { width: 1.12em; height: 1.12em; }
+  .jam .jam-wide { display: none; }
+  .jam .jam-intro .wrap > p { text-align: left; }
+  .jam .jam-voices { align-items: flex-start; flex-direction: column; gap: .55rem; }
+  .jam .jam-voices p:nth-child(2) { align-self: flex-end; }
+  .jam .jam-artwall { grid-template-columns: repeat(2,minmax(0,1fr)); margin-top: 1.4rem; }
+  .jam .jam-artwall figure:first-child { grid-column: span 2; width: 78%; justify-self: center; }
+  .jam .jam-artwall figcaption { font-size: .9rem; }
+  .jam .jam-subject-grid article { display: block; padding: .65rem; }
+  .jam .jam-subject-grid img { margin: 0; aspect-ratio: 2; }
+  .jam .jam-subject-grid article > div { padding: 1rem .4rem .45rem; }
+}

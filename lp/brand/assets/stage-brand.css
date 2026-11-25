@@ -1,0 +1,17 @@
+.sk-lp.stage.room-edition {
+  --ink:#121d38; --accent:#334e98; --deep:#13213b; --light:#fff;
+  --cyan:#8ddcfd; --lime:#e9ce94; --pink:#92b8f5;
+}
+.sk-lp.stage .room-poster { width:min(100%,86rem); }
+.sk-lp.stage .room-poster h1 { position:static; transform:none; font:inherit; letter-spacing:normal; white-space:normal; text-align:initial; }
+.sk-lp.stage .room-poster h1 img { width:100%; height:auto; }
+@media (min-width:52rem) and (min-height:32rem) {
+  .sk-lp.stage .room-poster { width:min(100%,86rem,calc((100svh - 7.5rem) * 1.77778)); }
+}
+.sk-lp.stage.room-edition .stage-intro { background:#101e36; }
+.sk-lp.stage.room-edition .stage-locator { background:#f3f7fe; color:#152e53; }
+.sk-lp.stage.room-edition .stage-program { background:#10192a; }
+.sk-lp.stage.room-edition .stage-kicker { color:#97d8fc; }
+.sk-lp.stage.room-edition .edit-chapter .stage-kicker { color:#eed6a0; }
+.sk-lp.stage.room-edition .stage-kicker span { font:700 .8em/1.5 Arial,sans-serif; letter-spacing:.075em; }
+.sk-lp.stage.room-edition .contact { background:#12213c; border-top:.45rem solid #3b57a6; }

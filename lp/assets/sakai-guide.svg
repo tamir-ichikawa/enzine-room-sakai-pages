@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 540" role="img" aria-labelledby="title desc">
+  <title id="title">南海本線・堺駅とエンジンルーム堺の周辺案内図</title>
+  <desc id="desc">堺駅の東出口と南口、竜神橋道、大小路筋、横通筋を示す略図。事業所は堺区甲斐町西三丁4番4号、N+ビルディング2階です。</desc>
+  <defs>
+    <pattern id="grain" width="10" height="10" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="3" r=".8" fill="#547462" opacity=".18"/>
+      <circle cx="7" cy="8" r=".5" fill="#547462" opacity=".16"/>
+    </pattern>
+    <pattern id="bank" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(36)">
+      <path d="M0 0V8" fill="none" stroke="#85aea0" stroke-width="2"/>
+    </pattern>
+    <g id="train" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2">
+      <rect x="3.5" y="1.5" width="17" height="18" rx="4"/>
+      <path d="M7 12V6h10v6ZM7.5 19l-3 4m12-4 3 4m-12.3-1h9.6"/>
+      <path d="M7.5 15.5h1m7 0h1"/>
+    </g>
+  </defs>
+  <rect width="760" height="540" fill="#f5f3e6"/>
+  <g fill="#e6ead9">
+    <path d="M0 0h263L124 163 0 112Z"/>
+    <path d="m466 0 127 4-96 110-61-40Z"/>
+    <path d="M692 252l68-51v125l-49-31Z"/>
+    <path d="m65 485 91-71 56 41-83 85H0Z"/>
+    <path d="m471 438 52-75 116 70-77 90Z"/>
+  </g>
+  <rect width="760" height="540" fill="url(#grain)"/>
+  <!-- Retain the relative positions of the named roads, canals, rail and station from the Sakai guide. -->
+  <g transform="matrix(.62 0 0 .62 0 -130)" fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <g stroke="#c7d4bd" stroke-width="2.5" opacity=".8">
+      <path d="m99 532 51 26 38-45m-98 72 69 37 40-49m81-120 36 24 34-40m521 90 53 35 54-44m-94 70 37 24 55-41m-29 414 72 48 53-71m-4 103 37-51m-506-34 43 26 47-63m-3 93 23-30"/>
+    </g>
+    <g stroke="#a8d6d9" stroke-width="38">
+      <path d="M-60 410Q105 515 199 525L564 715Q591 738 620 735C687 729 686 590 760 616L892 717Q911 732 937 717L1250 470"/>
+      <path d="M-45 1370 351 1050 594 750Q616 726 639 728"/>
+    </g>
+    <path d="M-40 441Q85 522 171 539m161 62 138 68m-52 314 90-113m215-231q16-23 36-18m209 58 113-91" stroke="#d6f1ee" stroke-width="3"/>
+    <g stroke="#b7c8b6" stroke-width="28">
+      <path d="M-50 802 192 519 429 256 704-65"/>
+      <path d="M90 1349 336 1068 568 738 759 482 1007 167"/>
+      <path d="M-29 789 376 1057 805 1363"/>
+      <path d="M666 623 916 779 1260 1014"/>
+      <path d="m842 843 118-144 276-213"/>
+      <path d="M481 1362 664 1112 853 859"/>
+    </g>
+    <g stroke="#fffef7" stroke-width="20">
+      <path d="M-50 802 192 519 429 256 704-65"/>
+      <path d="M90 1349 336 1068 568 738 759 482 1007 167"/>
+      <path d="M-29 789 376 1057 805 1363"/>
+      <path d="M666 623 916 779 1260 1014"/>
+      <path d="m842 843 118-144 276-213"/>
+      <path d="M481 1362 664 1112 853 859"/>
+    </g>
+    <g stroke="#8daca1" stroke-width="4">
+      <path d="m164 527 22-27m-4 31 23-28m147 555 23 16m-28-1 25 17m174-375 28-37m-11 41 26-35"/>
+    </g>
+    <path d="M-49 1016 228 753 469 537Q633 405 733 298L960 44" stroke="#fbfbec" stroke-width="27"/>
+    <path d="M-49 1016 228 753 469 537Q633 405 733 298L960 44" stroke="#315b56" stroke-width="12"/>
+    <path d="M-49 1016 228 753 469 537Q633 405 733 298L960 44" stroke="#f4f3dc" stroke-width="5" stroke-linecap="butt" stroke-dasharray="13 13"/>
+    <g transform="translate(407 592) rotate(-43)">
+      <rect x="-161" y="-14" width="318" height="34" rx="12" fill="#c6d5c6" stroke="#214f48" stroke-width="3"/>
+      <rect x="-161" y="-22" width="318" height="31" rx="10" fill="#fbfcf1" stroke="#214f48" stroke-width="5"/>
+      <rect x="-147" y="-13" width="290" height="11" rx="5" fill="url(#bank)"/>
+    </g>
+  </g>
+  <g font-family="'Yu Gothic','Hiragino Kaku Gothic ProN',Meiryo,sans-serif" fill="#284b44">
+    <g font-size="20" font-weight="650" letter-spacing="2" fill="#576b5c">
+      <text x="371" y="60">戎島町</text>
+      <text x="39" y="476">住吉橋町</text>
+    </g>
+    <g font-size="21" font-weight="650" paint-order="stroke" stroke="#f8f7eb" stroke-width="6" stroke-linejoin="round">
+      <text x="142" y="406" transform="rotate(32 142 406)">竜神橋道</text>
+      <text x="455" y="282" transform="rotate(32 455 282)">大小路筋</text>
+      <text x="631" y="285" transform="rotate(-38 631 285)">横通筋</text>
+    </g>
+    <g stroke="#204d45" stroke-linejoin="round" stroke-width="2.6">
+      <path d="M230 142v17l51 52" fill="none"/>
+      <rect x="44" y="67" width="207" height="81" rx="12" fill="#184e47"/>
+    </g>
+    <g color="#fffbed" transform="translate(59 92) scale(1.36)"><use href="#train"/></g>
+    <text x="108" y="94" fill="#dfedcf" font-weight="650" font-size="19">南海本線</text>
+    <text x="105" y="132" fill="#fffdf2" font-size="39" font-weight="800">堺駅</text>
+    <g fill="#fdfbf0" stroke="#315b56" stroke-width="2.4">
+      <path d="M306 186l13 15h9" fill="none"/>
+      <rect x="328" y="184" width="100" height="38" rx="7"/>
+      <path d="M180 315l12 15h10" fill="none"/>
+      <rect x="202" y="313" width="75" height="38" rx="7"/>
+    </g>
+    <g font-size="24" font-weight="750">
+      <text x="342" y="211">東出口</text>
+      <text x="216" y="340">南口</text>
+    </g>
+    <ellipse cx="329" cy="444" rx="16" ry="6" fill="#a05e45" opacity=".22"/>
+    <path d="M329 444c-8-13-25-31-25-46a25 25 0 0 1 50 0c0 15-17 33-25 46Z" fill="#bd412b" stroke="#fff9ed" stroke-width="4"/>
+    <circle cx="329" cy="398" r="8" fill="#fff8df"/>
+    <path d="m349 405 23-8v-26a9 9 0 0 1 9-9h265a9 9 0 0 1 9 9v79a9 9 0 0 1-9 9H381a9 9 0 0 1-9-9v-34Z" fill="#174b44" opacity=".18" transform="translate(0 5)"/>
+    <path d="m349 405 23-8v-26a9 9 0 0 1 9-9h265a9 9 0 0 1 9 9v79a9 9 0 0 1-9 9H381a9 9 0 0 1-9-9v-34Z" fill="#fffdf5" stroke="#a93626" stroke-width="2.6"/>
+    <text x="390" y="401" fill="#933622" font-family="Arial,Meiryo,sans-serif" font-weight="750" font-size="32">enzine room 堺</text>
+    <text x="390" y="435" fill="#284b44" font-weight="650" font-size="23">N+ビルディング 2階</text>
+  </g>
+</svg>

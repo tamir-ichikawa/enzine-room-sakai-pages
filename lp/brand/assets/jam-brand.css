@@ -1,0 +1,109 @@
+.sk-lp.jam {
+  --brand-black: #080a0b;
+  --brand-cyan: #28f6e5;
+  --brand-lime: #b7ff3c;
+  --brand-pink: #ff3d9e;
+  --jam-navy: var(--brand-black);
+  --jam-pink: #962056;
+  --deep: #11191d;
+  --accent: #3b57a6;
+  --ink: #152124;
+  --rule: #cad5d4;
+  --shade: #eaf3ef;
+}
+.jam .jam-location { background: #101b21; border-bottom: 1px solid #3b4a4d; }
+.jam .jam-location .ico { color: var(--brand-cyan); }
+.jam .jam-poster { background: var(--brand-black); }
+.jam .jam-portrait { object-position: 64% 39%; }
+.jam .jam-cover-type {
+  width: min(86%,76rem); min-height: clamp(29rem,40vw,43rem);
+  padding-block: clamp(2rem,4vw,4.8rem); justify-content: center; gap: 1rem;
+}
+.jam .jam-service {
+  padding: 0 0 0 .7rem; border: 0; border-left: 3px solid var(--brand-cyan);
+  outline: 0; border-radius: 0; background: none; color: #fff; line-height: 1.3;
+}
+.jam .jam-cover-type h1 {
+  color: #fff; font-family: "Yu Gothic","Hiragino Kaku Gothic ProN",Meiryo,sans-serif;
+  font-style: normal; line-height: 1.08; letter-spacing: -.085em;
+  paint-order: stroke fill; -webkit-text-stroke: .05em #101b25; text-shadow: .035em .045em #20384a;
+  font-size: clamp(4rem,8.3vw,8.2rem); margin: .1em 0 .12em;
+}
+.jam .jam-cover-type h1 span { margin-left: -.2em; }
+.jam .jam-cover-type h1 em { color: var(--brand-cyan); font-style: normal; }
+.jam .jam-genres { width: auto; padding: 0; display: flex; gap: .5rem; flex-wrap: wrap; align-items: center; }
+.jam .jam-genres a {
+  display: grid; place-items: center; width: clamp(3.35rem,5vw,4.5rem); aspect-ratio: 1;
+  font-weight: 800; font-size: clamp(.96rem,1.1vw,1.1rem); letter-spacing: -.07em;
+  background: var(--brand-pink); color: var(--brand-black); border-radius: 50%; text-decoration: none;
+}
+.jam .jam-genres a:nth-child(2) { background: var(--brand-lime); }
+.jam .jam-genres a:nth-child(3) { background: var(--brand-cyan); }
+.jam .jam-genres a:hover { text-decoration: underline; }
+.jam .jam-genres a:focus-visible { outline: 3px solid #fff; outline-offset: 3px; }
+.jam .jam-actions { background: #203037; }
+.jam .jam-actions a:first-child .ico { color: var(--brand-cyan); }
+.jam .jam-actions a:last-child { background: var(--brand-cyan); color: var(--brand-black); }
+.jam .jam-intro { background: #f5f8f5; }
+.jam .jam-brand-intro {
+  display: grid; grid-template-columns: .92fr 1.08fr; align-items: center; text-align: left;
+  gap: clamp(2rem,7vw,7rem);
+}
+.jam .jam-intro h2 { font-family: "Yu Mincho","Hiragino Mincho ProN",serif; }
+.jam .jam-intro h2 em { color: #205952; }
+.jam .jam-intro .wrap > p { margin: 0; max-width: 37em; }
+.jam .jam-brand-intro .jam-voices { grid-column:1/-1; margin:0; gap:.8rem; }
+.jam .jam-voices p { color:#102a2b; border-color:#416561; background:#e3f7f2; }
+.jam .jam-voices p:nth-child(2) { background:#fbe4f1; }
+.jam .jam-voices p:nth-child(3) { background:#ecf6cf; }
+.jam .jam-showcase {
+  background: #10181a; color: #fff; border: 0; text-align: left;
+}
+.jam .jam-showcase h2 span { color: var(--brand-cyan); }
+.jam .jam-artwall { align-items: stretch; gap: clamp(.8rem,2.1vw,2rem); }
+.jam .jam-artwall figure { position: relative; margin: 0; background: none; padding: 0; border: 0; box-shadow: none; }
+.jam .jam-artwall figure:first-child,.jam .jam-artwall figure:last-child { transform: none; }
+.jam .jam-artwall img { width: 100%; aspect-ratio: 1.42; object-fit: cover; }
+.jam .jam-artwall figcaption {
+  display: flex; align-items: center; gap: .5rem; padding: .6rem 0 .35rem;
+  font-size: clamp(.95rem,1.5vw,1.15rem); text-wrap: balance;
+}
+.jam .jam-artwall figcaption::before { content: ""; width: .55em; height: .55em; flex: 0 0 auto; border-radius: 50%; background: var(--brand-pink); }
+.jam .jam-artwall figure:nth-child(2) figcaption::before { background: var(--brand-lime); }
+.jam .jam-artwall figure:nth-child(3) figcaption::before { background: var(--brand-cyan); }
+.jam .jam-subjects > h2 { text-align: left; }
+.jam .jam-subjects h2 span { color: #205952; }
+.jam .jam-subject-grid article { display: block; padding: 1.15rem 1rem .7rem; border: 1px solid #cedad6; border-top: .35rem solid #c32f77; background: #fff; }
+.jam .jam-subject-grid article:nth-child(2) { background: #fff; border-color: #cedad6; border-top-color: #448333; }
+.jam .jam-subject-grid article:nth-child(3) { background: #fff; border-color: #cedad6; border-top-color: #008c80; }
+.jam .jam-subject-grid h3 { display: flex; gap: .45em; align-items: center; color: var(--ink); }
+.jam .jam-subject-grid .ico { width: 1.35em; height: 1.35em; }
+.jam .jam-subject-grid dt:target { text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: .22em; }
+.jam .jam-consult { color: #fff; background: #243b41; }
+.jam .visit-paper { background: #eff6f2; }
+.jam .faq summary { color: #214e55; }
+.jam .contact { background: #11191d; }
+.jam .contact-options > div { border-top-color: var(--brand-cyan); }
+.jam .contact-options > div + div { border-top-color: var(--brand-lime); }
+@media (max-width: 46rem) {
+  .jam .jam-cover-type { min-height: clamp(24rem,66vw,30rem); }
+  .jam .jam-portrait { object-position: 73% center; }
+  .jam .jam-brand-intro { grid-template-columns: 1fr; gap: 1rem; }
+  .jam .jam-artwall img { aspect-ratio: 1.15; }
+}
+@media (max-width: 33rem) {
+  .jam .jam-location { padding-block: .3rem; }
+  .jam .jam-poster::before {
+    content: ""; position: absolute; z-index: -1; inset: 0;
+    background: linear-gradient(0deg,#080a0b 0%,#080a0bba 24%,transparent 61%),linear-gradient(90deg,#080a0b73,transparent 65%);
+  }
+  .jam .jam-portrait { z-index: -2; object-position: 83% 33%; }
+  .jam .jam-cover-type { width: 89.5%; justify-content: end; min-height: clamp(24.4rem,105vw,29rem); padding: 1.3rem 0; gap: .75rem; }
+  .jam .jam-cover-type h1 { margin: auto 0 0; font-size: clamp(3rem,12vw,4.15rem); }
+  .jam .jam-service { align-self: start; font-size: .89rem; background: #10181ae8; padding: .35rem .5rem; }
+  .jam .jam-genres a { width: 3.15rem; font-size: .875rem; }
+  .jam .jam-artwall { grid-template-columns: minmax(0,1fr); gap: 1.15rem; }
+  .jam .jam-artwall figure:first-child { width: auto; grid-column: auto; justify-self: stretch; }
+  .jam .jam-artwall img { aspect-ratio: 1.7; }
+  .jam .jam-artwall figcaption { font-size: 1rem; }
+}
